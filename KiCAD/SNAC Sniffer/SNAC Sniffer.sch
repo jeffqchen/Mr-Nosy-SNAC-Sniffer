@@ -1,0 +1,401 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1"
+Comp ""
+Comment1 "Designed for OSH Park 2 Layer Prototype"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SNAC~Sniffer:HDMI_Female P1
+U 1 1 61771E3E
+P 3500 2550
+F 0 "P1" H 3395 3820 50  0000 C CNN
+F 1 "HDMI_Female" H 3395 3729 50  0000 C CNN
+F 2 "SNAC Sniffer:HDMI_Female" H 3500 2550 50  0001 L BNN
+F 3 "" H 3500 2550 50  0001 L BNN
+F 4 "Compliant" H 3500 2550 50  0001 L BNN "EU_RoHS_Compliance"
+F 5 "1827059-3" H 3500 2550 50  0001 L BNN "Comment"
+	1    3500 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SNAC~Sniffer:HDMI_Female P2
+U 1 1 6177AE7D
+P 7300 2550
+F 0 "P2" H 7532 2596 50  0000 L CNN
+F 1 "HDMI_Female" H 7532 2505 50  0000 L CNN
+F 2 "SNAC Sniffer:HDMI_Female" H 7300 2550 50  0001 L BNN
+F 3 "" H 7300 2550 50  0001 L BNN
+F 4 "Compliant" H 7300 2550 50  0001 L BNN "EU_RoHS_Compliance"
+F 5 "1827059-3" H 7300 2550 50  0001 L BNN "Comment"
+	1    7300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SNAC~Sniffer:Arduino_Nano U1
+U 1 1 6177FD63
+P 5350 4550
+F 0 "U1" V 5304 5380 50  0000 L CNN
+F 1 "Arduino_Nano" V 5395 5380 50  0000 L CNN
+F 2 "SNAC Sniffer:Arduino_Nano" H 5350 4550 50  0001 L BNN
+F 3 "" H 5350 4550 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 5350 4550 50  0001 L BNN "STANDARD"
+F 5 "23/03/2020" H 5350 4550 50  0001 L BNN "PARTREV"
+F 6 "Arduino" H 5350 4550 50  0001 L BNN "MANUFACTURER"
+F 7 "N/A" H 5350 4550 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	1    5350 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 5350 4950 5450
+Wire Wire Line
+	4950 5450 3500 5450
+Wire Wire Line
+	5050 5350 5050 5500
+Wire Wire Line
+	5050 5500 3900 5500
+Wire Wire Line
+	5350 5350 5350 5650
+Wire Wire Line
+	3900 5500 3900 5900
+Wire Wire Line
+	3500 5450 3500 5900
+Wire Wire Line
+	4950 6550 5300 6550
+Connection ~ 4950 6550
+Wire Wire Line
+	4950 6400 4950 6550
+Wire Wire Line
+	4600 6550 4950 6550
+Connection ~ 4600 6550
+Wire Wire Line
+	4600 6400 4600 6550
+Wire Wire Line
+	4250 6550 4600 6550
+Connection ~ 4250 6550
+Wire Wire Line
+	4250 6400 4250 6550
+Wire Wire Line
+	3900 6550 4250 6550
+Connection ~ 3900 6550
+Wire Wire Line
+	6300 6550 6300 6650
+Wire Wire Line
+	3500 6550 3900 6550
+Wire Wire Line
+	3500 6400 3500 6550
+$Comp
+L power:GND #PWR0101
+U 1 1 6178AF09
+P 6300 6650
+F 0 "#PWR0101" H 6300 6400 50  0001 C CNN
+F 1 "GND" H 6305 6477 50  0000 C CNN
+F 2 "" H 6300 6650 50  0001 C CNN
+F 3 "" H 6300 6650 50  0001 C CNN
+	1    6300 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SNAC~Sniffer:PinHeader J5
+U 1 1 6178A1D3
+P 5100 6150
+F 0 "J5" V 5054 6088 50  0000 L CNN
+F 1 "PinHeader" V 5145 6088 50  0001 L CNN
+F 2 "SNAC Sniffer:Pin_Header_2.54" H 5100 6150 50  0001 C CNN
+F 3 "" H 5100 6150 50  0001 C CNN
+	1    5100 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L SNAC~Sniffer:PinHeader J4
+U 1 1 61789079
+P 4750 6150
+F 0 "J4" V 4704 6088 50  0000 L CNN
+F 1 "PinHeader" V 4795 6088 50  0001 L CNN
+F 2 "SNAC Sniffer:Pin_Header_2.54" H 4750 6150 50  0001 C CNN
+F 3 "" H 4750 6150 50  0001 C CNN
+	1    4750 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L SNAC~Sniffer:PinHeader J3
+U 1 1 61788424
+P 4400 6150
+F 0 "J3" V 4354 6088 50  0000 L CNN
+F 1 "PinHeader" V 4445 6088 50  0001 L CNN
+F 2 "SNAC Sniffer:Pin_Header_2.54" H 4400 6150 50  0001 C CNN
+F 3 "" H 4400 6150 50  0001 C CNN
+	1    4400 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L SNAC~Sniffer:PinHeader J2
+U 1 1 617871E7
+P 4050 6150
+F 0 "J2" V 4004 6088 50  0000 L CNN
+F 1 "PinHeader" V 4095 6088 50  0001 L CNN
+F 2 "SNAC Sniffer:Pin_Header_2.54" H 4050 6150 50  0001 C CNN
+F 3 "" H 4050 6150 50  0001 C CNN
+	1    4050 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L SNAC~Sniffer:PinHeader J1
+U 1 1 61783F7D
+P 3650 6150
+F 0 "J1" V 3604 6088 50  0000 L CNN
+F 1 "PinHeader" V 3695 6088 50  0001 L CNN
+F 2 "SNAC Sniffer:Pin_Header_2.54" H 3650 6150 50  0001 C CNN
+F 3 "" H 3650 6150 50  0001 C CNN
+	1    3650 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 3750 5750 3650
+Wire Wire Line
+	5750 3650 6300 3650
+Wire Wire Line
+	6300 3650 6300 3750
+Connection ~ 6300 6550
+Wire Wire Line
+	3900 2250 4950 2250
+Wire Wire Line
+	6900 2350 4850 2350
+Wire Wire Line
+	3900 2450 6900 2450
+Wire Wire Line
+	6900 2550 4750 2550
+Wire Wire Line
+	3900 2650 6900 2650
+Wire Wire Line
+	6900 2750 3900 2750
+Wire Wire Line
+	3900 2850 6900 2850
+Wire Wire Line
+	6900 2950 6600 2950
+Wire Wire Line
+	3900 3050 6900 3050
+Wire Wire Line
+	6900 3150 3900 3150
+Wire Wire Line
+	3900 3250 6900 3250
+Wire Wire Line
+	3900 3350 6450 3350
+Wire Wire Line
+	6300 3650 6300 3500
+Connection ~ 6300 3650
+Connection ~ 6300 3500
+Wire Wire Line
+	6300 3500 6800 3500
+Wire Wire Line
+	6450 3350 6450 3650
+Wire Wire Line
+	6450 3650 6300 3650
+Connection ~ 6450 3350
+Wire Wire Line
+	6450 3350 6900 3350
+Wire Wire Line
+	6600 2950 6600 3750
+Wire Wire Line
+	6600 3750 6300 3750
+Connection ~ 6600 2950
+Wire Wire Line
+	6600 2950 3900 2950
+Wire Wire Line
+	6300 3750 6300 6550
+Wire Wire Line
+	5650 3750 5650 1550
+Wire Wire Line
+	5550 3750 5550 1650
+Wire Wire Line
+	5450 3750 5450 1750
+Wire Wire Line
+	5350 3750 5350 1850
+Wire Wire Line
+	5250 3750 5250 1950
+Wire Wire Line
+	5150 3750 5150 2050
+Wire Wire Line
+	5050 3750 5050 2150
+Wire Wire Line
+	3900 6400 3900 6550
+Wire Wire Line
+	3900 1550 5650 1550
+Wire Wire Line
+	3900 1650 5550 1650
+Wire Wire Line
+	3900 1750 5450 1750
+Wire Wire Line
+	3900 1850 5350 1850
+Wire Wire Line
+	3900 1950 5250 1950
+Wire Wire Line
+	3900 2050 5150 2050
+Wire Wire Line
+	3900 2150 5050 2150
+Connection ~ 5050 2150
+Wire Wire Line
+	5050 2150 6900 2150
+Connection ~ 5150 2050
+Wire Wire Line
+	5150 2050 6900 2050
+Connection ~ 5250 1950
+Wire Wire Line
+	5250 1950 6900 1950
+Connection ~ 5350 1850
+Wire Wire Line
+	5350 1850 6900 1850
+Connection ~ 5450 1750
+Wire Wire Line
+	5450 1750 6900 1750
+Connection ~ 5550 1650
+Wire Wire Line
+	5550 1650 6900 1650
+Connection ~ 5650 1550
+Wire Wire Line
+	5650 1550 6900 1550
+Wire Wire Line
+	3900 3600 4050 3600
+Wire Wire Line
+	4050 3600 4050 3500
+Wire Wire Line
+	3900 3500 4050 3500
+Connection ~ 4050 3500
+Wire Wire Line
+	4050 3500 6300 3500
+Wire Wire Line
+	3900 3700 4050 3700
+Wire Wire Line
+	4050 3700 4050 3600
+Connection ~ 4050 3600
+Wire Wire Line
+	3900 3800 4050 3800
+Wire Wire Line
+	4050 3800 4050 3700
+Connection ~ 4050 3700
+Wire Wire Line
+	6900 3600 6800 3600
+Wire Wire Line
+	6800 3600 6800 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6800 3500 6900 3500
+Wire Wire Line
+	6900 3700 6800 3700
+Wire Wire Line
+	6800 3700 6800 3600
+Connection ~ 6800 3600
+Wire Wire Line
+	6900 3800 6800 3800
+Wire Wire Line
+	6800 3800 6800 3700
+Connection ~ 6800 3700
+Text Label 6300 5300 0    50   ~ 0
+Common_GND
+Wire Wire Line
+	4950 3750 4950 2250
+Connection ~ 4950 2250
+Wire Wire Line
+	4950 2250 6900 2250
+Wire Wire Line
+	4850 3750 4850 2350
+Connection ~ 4850 2350
+Wire Wire Line
+	4850 2350 3900 2350
+Wire Wire Line
+	4750 3750 4750 2550
+Connection ~ 4750 2550
+Wire Wire Line
+	4750 2550 3900 2550
+$Comp
+L SNAC~Sniffer:PinHeader J7
+U 1 1 61A484A4
+P 5800 6150
+F 0 "J7" V 5754 6088 50  0000 L CNN
+F 1 "PinHeader" V 5845 6088 50  0001 L CNN
+F 2 "SNAC Sniffer:Pin_Header_2.54" H 5800 6150 50  0001 C CNN
+F 3 "" H 5800 6150 50  0001 C CNN
+	1    5800 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L SNAC~Sniffer:PinHeader J8
+U 1 1 61A4D002
+P 6150 6150
+F 0 "J8" V 6104 6088 50  0000 L CNN
+F 1 "PinHeader" V 6195 6088 50  0001 L CNN
+F 2 "SNAC Sniffer:Pin_Header_2.54" H 6150 6150 50  0001 C CNN
+F 3 "" H 6150 6150 50  0001 C CNN
+	1    6150 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L SNAC~Sniffer:PinHeader J6
+U 1 1 61A5B09D
+P 5450 6150
+F 0 "J6" V 5404 6088 50  0000 L CNN
+F 1 "PinHeader" V 5495 6088 50  0001 L CNN
+F 2 "SNAC Sniffer:Pin_Header_2.54" H 5450 6150 50  0001 C CNN
+F 3 "" H 5450 6150 50  0001 C CNN
+	1    5450 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 5350 5150 5550
+Wire Wire Line
+	5150 5550 4250 5550
+Wire Wire Line
+	4250 5550 4250 5900
+Wire Wire Line
+	5250 5600 4600 5600
+Wire Wire Line
+	4600 5600 4600 5900
+Wire Wire Line
+	5250 5350 5250 5600
+Wire Wire Line
+	5350 5650 4950 5650
+Wire Wire Line
+	4950 5650 4950 5900
+Wire Wire Line
+	5450 5350 5450 5700
+Wire Wire Line
+	5450 5700 5300 5700
+Wire Wire Line
+	5300 5700 5300 5900
+Wire Wire Line
+	5550 5350 5550 5700
+Wire Wire Line
+	5550 5700 5650 5700
+Wire Wire Line
+	5650 5700 5650 5900
+Wire Wire Line
+	5650 5350 5650 5650
+Wire Wire Line
+	5650 5650 6000 5650
+Wire Wire Line
+	6000 5650 6000 5900
+Wire Wire Line
+	5300 6400 5300 6550
+Connection ~ 5300 6550
+Wire Wire Line
+	5300 6550 5650 6550
+Wire Wire Line
+	5650 6400 5650 6550
+Connection ~ 5650 6550
+Wire Wire Line
+	5650 6550 6000 6550
+Wire Wire Line
+	6000 6400 6000 6550
+Connection ~ 6000 6550
+Wire Wire Line
+	6000 6550 6300 6550
+Connection ~ 6300 3750
+$EndSCHEMATC
