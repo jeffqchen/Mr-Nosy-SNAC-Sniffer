@@ -15,7 +15,7 @@ I've created two versions. One with the impression of an inline design, while th
 
 - Pin Headers, 2.54mm-pitched
 
-- 2x15 Socket, 2.54mm-pitched, 0.6" Row Spacing
+- 2x15 Socket, 2.54mm-pitched, 0.6" Row Spacing (Optional)
 
 - HDMI Female Socket, Through Hole
   - https://www.aliexpress.com/item/4000348824214.html
@@ -32,7 +32,7 @@ I've created two versions. One with the impression of an inline design, while th
 
 Assembly is pretty straight forward. Parts belong to the side with silkscreen printings.
 
-Note on the long version, the two HDMI headers are on different sides. Remember to solder the jumper headers before soldering the Arduino socket, otherwise it will be kind of hard to do afterwards.
+Note on the long version, the two HDMI headers are on different sides. Remember to solder the jumper headers before soldering the Arduino or its socket, otherwise it will be kind of hard to do afterwards.
 
 
 -------------
