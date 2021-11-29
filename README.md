@@ -23,7 +23,7 @@ I've created two versions. One with the impression of an inline design, while th
 - Jumper Caps
 
 - "Mr. Nosy" PCB
-  - Long Version: https://oshpark.com/shared_projects/0A5gzwTW
+  - Long Version: https://oshpark.com/shared_projects/CRrWdsM4
   - Square Version: https://oshpark.com/shared_projects/UYfhPj0N
 
 -------------
