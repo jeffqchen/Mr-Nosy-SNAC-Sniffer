@@ -33,3 +33,10 @@ I've created two versions. One with the impression of an inline design, while th
 Assembly is pretty straight forward. Parts belong to the side with silkscreen printings.
 
 Note on the long version, the two HDMI headers are on different sides. Remember to solder the jumper headers before soldering the Arduino socket, otherwise it will be kind of hard to do afterwards.
+
+
+-------------
+## Special Thanks
+
+@40wattRange
+- https://twitter.com/40wattrange
