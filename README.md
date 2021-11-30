@@ -4,9 +4,10 @@
 
 ”Mr. Nosy“” SNAC Sniffer is a hardware iteration that's powered by the [RetroSpy](https://github.com/retrospy/RetroSpy).
 
-I've created two versions. One with the impression of an inline design, while the other can be set up to hide the wires behind it.
+I've created three versions. The long with the impression of an inline design. The square can be set up to hide the wires behind it. The "L" is a shorter & more compact design of the long.
 
 <img src="./Pics/square.png" width=300>
+<img src="./Pics/L.png" width=300>
 
 -------------
 ## Parts
@@ -25,6 +26,7 @@ I've created two versions. One with the impression of an inline design, while th
 - "Mr. Nosy" PCB
   - Long Version: https://oshpark.com/shared_projects/CRrWdsM4
   - Square Version: https://oshpark.com/shared_projects/UYfhPj0N
+  - L Version: https://oshpark.com/shared_projects/WcJKoEXY
 
 -------------
 
