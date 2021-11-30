@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "/Volumes/Work/My Design/Other/Mr-Nosy-SNAC-Sniffer/KiCAD/SNAC Sniffer/SNAC Sniffer.sch")
-    (date "Monday, 29 November 2021 at 15:32:46")
+    (source "/Volumes/Work/My Design/Other/Mr-Nosy-SNAC-Sniffer/KiCAD/SNAC Sniffer/SNAC Sniffer Indent.sch")
+    (date "Monday, 29 November 2021 at 15:42:56")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company)
         (rev 1)
         (date)
-        (source "SNAC Sniffer.sch")
+        (source "SNAC Sniffer Indent.sch")
         (comment (number 1) (value "Designed for OSH Park 2 Layer Prototype"))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -35,7 +35,7 @@
       (tstamp 6177AE7D))
     (comp (ref U1)
       (value Arduino_Nano)
-      (footprint "SNAC Sniffer:Arduino_Nano")
+      (footprint "SNAC Sniffer:Arduino_Nano_Less_Pins")
       (fields
         (field (name MANUFACTURER) Arduino)
         (field (name MAXIMUM_PACKAGE_HEIGHT) N/A)
