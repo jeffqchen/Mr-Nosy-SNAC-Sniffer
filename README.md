@@ -12,14 +12,13 @@ I've created three versions. The long with the impression of an inline design. T
 -------------
 ## Parts
 
-- Arduino Nano
+- Arduino Nano - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Board/Arduino/Nano/info.md)
 
-- Pin Headers, 2.54mm-pitched
+- HDMI Female Socket, Through Hole - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/HDMI/Female/PCB/info.md)
+
+- 2.54mm-Pitched Pin Header, Straight - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Pin%20Header/2.54mm%20Pitch/Male%20Straight/info.md)
 
 - 2x15 Socket, 2.54mm-pitched, 0.6" Row Spacing (Optional)
-
-- HDMI Female Socket, Through Hole
-  - https://www.aliexpress.com/item/4000348824214.html
 
 - Jumper Caps
 
